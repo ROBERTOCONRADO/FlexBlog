@@ -215,6 +215,18 @@ img {
     padding: 15px 0;
     text-align: center;
 }
+.preco-item:nth-child(1) a:hover {
+    border: 4px solid #bf8970d1;
+    transition: border 1s;
+}
+.preco-item:nth-child(2) a:hover {
+    border: 4px solid #c0c0c0;
+    transition: border 1s;
+}
+.preco-item:nth-child(3) a:hover {
+    border: 4px solid #ffd700;
+    transition: border 1s;
+}
 @media (max-width: 800px) {
     .preco {
         padding-left: 10px;
